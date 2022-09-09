@@ -2,12 +2,12 @@
 
 /**
  * main - prints all possible different combinations of two digits
- *Return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int n, m;
+	int n, m
 
 	for (n = 48; n <= 56; n++)
 	{
@@ -16,14 +16,14 @@ int main(void)
 			if (m > n)
 			{
 				putchar(n);
-				putchar(m);											
+				putchar(m);
 				if (n != 56 || m != 57)
 				{
 					putchar(',');
 					putchar(' ');
 				}
 			}
-		}	
+		}
 	}
 	putchar('\n');
 	return (0);
