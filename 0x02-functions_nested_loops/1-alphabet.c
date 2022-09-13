@@ -9,16 +9,12 @@
 
 void print_alphabet(void)
 {
-	char ch;
+	char letters = 'a';
 
-	ch = 'a';
-
-	while (ch <= "Z")
+	while (letters <= 'z')
 	{
-		_putchar(ch);
-		ch++;
+		_putchar(letters);
+		letters++
 	}
-
 	_putchar('\n');
-
 }
